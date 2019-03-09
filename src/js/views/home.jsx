@@ -6,6 +6,7 @@ import "../../styles/home.css";
 
 export class Home extends React.Component {
 	render() {
+<<<<<<< HEAD
 		return (
 			<div className="text-center mt-5">
 				<h1>Hello Rigo!</h1>
@@ -28,5 +29,8 @@ export class Home extends React.Component {
 				</p>
 			</div>
 		);
+=======
+		return <p />;
+>>>>>>> d655f9bb823d218bb266b1a58dea158de16291d7
 	}
 }
