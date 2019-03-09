@@ -2,6 +2,9 @@ import React from "react";
 
 export class Navbar extends React.Component {
 	render() {
+<<<<<<< HEAD
+		return <h2 className="text-center">Navbar</h2>;
+=======
 		return (
 			<div className="container-fluid p-0 ">
 				<nav className="navbar navbar-expand-sm  navbar navbar-dark bg-dark">
@@ -43,5 +46,6 @@ export class Navbar extends React.Component {
 				</nav>
 			</div>
 		);
+>>>>>>> d655f9bb823d218bb266b1a58dea158de16291d7
 	}
 }

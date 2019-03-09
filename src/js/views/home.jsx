@@ -7,10 +7,39 @@ import { Jumbotron } from "../component/jumbotron.jsx";
 
 export class Home extends React.Component {
 	render() {
+<<<<<<< HEAD
 		return (
 			<div>
 				<Jumbotron />
 			</div>
 		);
+=======
+<<<<<<< HEAD
+		return (
+			<div className="text-center mt-5">
+				<h1>Hello Rigo!</h1>
+				<p>
+					<img src={rigoImage} />
+				</p>
+				<a href="#" className="btn btn-success">
+					If you see this green button, bootstrap is working
+				</a>
+				<hr />
+				<Link to="/demo">
+					<button className="btn btn-primary">
+						Check the Context in action
+					</button>
+				</Link>
+				<p>
+					Made by{" "}
+					<a href="http://www.4geeksacademy.com">4Geeks Academy</a>,
+					with love!
+				</p>
+			</div>
+		);
+=======
+		return <p />;
+>>>>>>> d655f9bb823d218bb266b1a58dea158de16291d7
+>>>>>>> f71e8d20ced2084d6649d9a403ea3fb75502c072
 	}
 }
