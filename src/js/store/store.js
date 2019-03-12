@@ -1,6 +1,14 @@
 const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
+			//NavBar Array
+			navBarArray: [
+				{ label: "Home", url: "/home" },
+				{ label: "Products", url: "/Products" },
+				{ label: "Blog", url: "/Blog" },
+				{ label: "Contact Us", url: "/Contactus" }
+			],
+
 			demo: [
 				{
 					title: "FIRST",

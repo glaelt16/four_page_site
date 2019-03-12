@@ -12,12 +12,8 @@ import Store from "./store/appContext.jsx";
 
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
-<<<<<<< HEAD
-=======
 
 import { Jumbotron } from "./component/jumbotron.jsx";
->>>>>>> f71e8d20ced2084d6649d9a403ea3fb75502c072
-
 
 //create your first component
 export class Layout extends React.Component {
@@ -26,19 +22,11 @@ export class Layout extends React.Component {
 			<BrowserRouter>
 				<ScrollToTop>
 					<Navbar />
-<<<<<<< HEAD
-=======
-
-					<Jumbotron />
-
->>>>>>> f71e8d20ced2084d6649d9a403ea3fb75502c072
 					<Switch>
-						<Route exact path="/" component={Home} />
+						<Route exact path="/home" component={Home} />
 						<Route path="/demo" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
-
 						<Route path="/products" component={Products} />
-
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
 					<Footer />
