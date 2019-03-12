@@ -4,9 +4,17 @@ import { Link } from "react-router-dom";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 import "../../styles/home.css";
+import { Jumbotron } from "../component/jumbotron.jsx";
 
 export class Home extends React.Component {
 	render() {
+		return (
+			<div>
+				<Jumbotron />
+			</div>
+		);
+=======
+<<<<<<< HEAD
 		return (
 			<div className="text-center mt-5">
 				<h1>Hello Rigo!</h1>
@@ -29,5 +37,12 @@ export class Home extends React.Component {
 				</p>
 			</div>
 		);
+<<<<<<< HEAD
+=======
+=======
+		return <p />;
+>>>>>>> d655f9bb823d218bb266b1a58dea158de16291d7
+>>>>>>> f71e8d20ced2084d6649d9a403ea3fb75502c072
+>>>>>>> 022740a0b2413bcb024f5bfbe6f2dc12885cab19
 	}
 }

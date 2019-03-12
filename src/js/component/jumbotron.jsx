@@ -1,5 +1,5 @@
 import React from "react";
-
+import picture from "../../img/bacon.jpg";
 export class Jumbotron extends React.Component {
 	render() {
 		return (
@@ -14,14 +14,8 @@ export class Jumbotron extends React.Component {
 					burgdoggen pork belly pastrami shoulder. Salami bresaola
 					buffalo, ball tip leberkas pork belly shoulder
 				</p>
-				<p className="lead">
-					<a
-						className="btn btn-primary btn-lg"
-						href="#"
-						role="button">
-						Call to Action
-					</a>
-				</p>
+
+				<img src={picture} className="img-circle" alt="Cinque Terre" />
 			</div>
 		);
 	}
