@@ -8,10 +8,15 @@ import { Single } from "./views/single.jsx";
 import Store from "./store/appContext.jsx";
 import blog from "./views/blog.jsx";
 
+import { Products } from "./views/products.jsx";
+
 import { Navbar } from "./component/navbar.jsx";
 import { Footer } from "./component/footer.jsx";
 
 //create your first componentnpm run c9
+import { Jumbotron } from "./component/jumbotron.jsx";
+
+//create your first component
 export class Layout extends React.Component {
 	render() {
 		return (
@@ -23,8 +28,10 @@ export class Layout extends React.Component {
 						<Route exact path="/blog" component={blog} />
 						<Route path="/demo" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
+						<Route path="/products" component={Products} />
 						<Route render={() => <h1>Not found!</h1>} />
 					</Switch>
+					<Jumbotron />
 					<Footer />
 				</ScrollToTop>
 			</BrowserRouter>
