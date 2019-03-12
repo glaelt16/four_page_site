@@ -1,6 +1,7 @@
 const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
+<<<<<<< HEAD
 			//NavBar Array
 			navBarArray: [
 				{ label: "Home", url: "/home" },
@@ -10,18 +11,26 @@ const getState = ({ getStore, setStore }) => {
 			],
 
 			demo: [
+=======
+			blog: [
+>>>>>>> 6d52380e767450ade20cd46414930d88ce74eb6a
 				{
-					title: "FIRST",
-					background: "white",
-					initial: "white"
+					title: "Bacon",
+					image:
+						"https://images.pexels.com/photos/1927377/pexels-photo-1927377.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260g",
+					body:
+						"Bacon ipsum dolor amet alcatra bacon meatball bresaola prosciutto, biltong cow corned beef. Burgdoggen fatback boudin, landjaeger pork belly chuck pig turducken"
 				},
 				{
-					title: "SECOND",
-					background: "white",
-					initial: "white"
+					title: "Love Bacon",
+					image:
+						"https://images.pexels.com/photos/434283/pexels-photo-434283.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+					body:
+						"Spicy jalapeno bacon ipsum dolor amet duis esse drumstick ribeye, est veniam pig fugiat minim elit rump.	Bresaola ipsum jowl filet mignon, irure spare ribs nisi."
 				}
 			]
 		},
+
 		actions: {
 			changeColor: (index, color) => {
 				//get the store
