@@ -1,19 +1,16 @@
 const getState = ({ getStore, setStore }) => {
 	return {
 		store: {
-<<<<<<< HEAD
 			//NavBar Array
 			navBarArray: [
 				{ label: "Home", url: "/home" },
 				{ label: "Products", url: "/Products" },
 				{ label: "Blog", url: "/Blog" },
-				{ label: "Contact Us", url: "/Contactus" }
+				{ label: "Contact Us", url: "/Contactus" },
+				{ label: "Shooping Cart", url: "/cart" }
 			],
 
-			demo: [
-=======
 			blog: [
->>>>>>> 6d52380e767450ade20cd46414930d88ce74eb6a
 				{
 					title: "Bacon",
 					image:
