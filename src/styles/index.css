@@ -11,7 +11,8 @@
    color: white;
    text-align: center;
    margin-top:40px;
-   margin-bottom: 0;
+   
+  
 }
 
 
@@ -21,8 +22,9 @@
     position: relative;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 10px;
+    
 } 
 
 
@@ -36,18 +38,6 @@ img {
     
 }
 
-.navbar-collapse{
-        margin-top: 80px;
-}
 
 
-.navbar{
-       
-        height: 60px;
-}
 
-.bg-dark{
-    
-    background-color: black;
-    
-}

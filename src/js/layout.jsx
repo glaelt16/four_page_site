@@ -6,7 +6,7 @@ import { Home } from "./views/home.jsx";
 import { Demo } from "./views/demo.jsx";
 import { Single } from "./views/single.jsx";
 import Store from "./store/appContext.jsx";
-import { blog } from "./views/blog.jsx";
+import Blog from "./views/blog.jsx";
 
 import { Products } from "./views/products.jsx";
 
@@ -26,7 +26,7 @@ export class Layout extends React.Component {
 					<Switch>
 						<Route exact path="/home" component={Home} />
 						<Route exact path="/" component={Home} />
-						<Route exact path="/blog" component={blog} />
+						<Route exact path="/blog" component={Blog} />
 						<Route path="/demo" component={Demo} />
 						<Route path="/single/:theid" component={Single} />
 						<Route path="/products" component={Products} />

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ReactDOM from "react-dom";
 import "../../styles/blog.css";
 
-function Blog(props) {
+function Blog() {
 	return (
 		<Context.Consumer>
 			{({ store }) => {
